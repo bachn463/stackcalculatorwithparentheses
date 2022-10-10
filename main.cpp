@@ -143,6 +143,7 @@ float calculate(string exp) {
 }
 
 int main() {
+    //prints out -6
     cout << calculate("(4*(1+2)/6)^3-(((5+1)/2)^2)*2") << endl;
     return 0;
 }
